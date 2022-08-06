@@ -1,7 +1,11 @@
 # odin-etch-a-sketch
 The Odin Project: Etch A Sketch project
 
-**06/Aug/2022 Reflection**
+Demo: https://jessumguy.github.io/odin-etch-a-sketch/
+
+![output](https://user-images.githubusercontent.com/43509228/183238374-d7fce5f3-6fcf-4c6a-8292-5f059c39ca13.gif)
+
+**06/08/2022 Reflection**
 
 Coming back after a 2 month gap (due to pure laziness). Added a reset button that toggles the page and a button that toggles dark mode. Thought about fleshing out the project further by making the cells smaller and adding a feature allowing for the user to input the grid values, but am deciding against this for now as I feel the need to move on or I will never finish the lessons. May revisit this in the future though.
 
