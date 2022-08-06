@@ -1,4 +1,4 @@
-// Creates 16x16 grid using javascript to dynamically them into the DOM
+// Creates 16x16 grid using javascript to dynamically add them into the DOM
 const gridContainer = document.querySelector('#grid-container');
 
 let createRows = (rows, columns) => {
@@ -30,4 +30,8 @@ cell.forEach(div => div.addEventListener('mouseenter', (e) => {
   console.log(e.target.style.backgroundColor = ("#" + randomColor));
 }))
 
-
+// Toggles Dark Mode
+const toggleDarkMode = () => {
+  let entirePage = document.body;
+  entirePage.classList.toggle("dark-mode")
+}
